@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kenangan Indah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .galeri-container {
+            display: flex; /* Mengatur tata letak foto dalam satu baris */
+            flex-wrap: wrap; /* Memungkinkan foto pindah ke baris baru jika tidak muat */
+            gap: 20px; /* Jarak antara foto */
+            justify-content: center; /* Memusatkan foto di tengah */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .foto-item {
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            width: 300px; /* Lebar setiap foto item */
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .foto-item:hover {
+            transform: scale(1.05); /* Efek perbesaran saat kursor di atas foto */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .foto-item img {
+            width: 100%;
+            height: 200px; /* Tinggi yang seragam untuk semua gambar */
+            object-fit: cover; /* Memastikan gambar menutupi area tanpa terdistorsi */
+            display: block;
+        }
+
+        .foto-item p {
+            padding: 10px;
+            margin: 0;
+            color: #555;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>✨ ROBLOX ✨</h1>
+
+    <div class="galeri-container">
+
+        <div class="foto-item">
+            <img src="roblox1.png" alt="Foto Ibu dan anaknya">
+            <p>Digendong Mommy</p>
+        </div>
+
+        <div class="foto-item">
+            <img src="roblox2.png" alt="Foto Gunung Botak">
+            <p>Gunung Botakk.</p>
+        </div>
+
+        <div class="foto-item">
+            <img src="roblox3.png" alt="Foto Cewe Imut">
+            <p>Imut Sekaliii AWWW.</p>
+        </div>
+
+        <div class="foto-item">
+            <img src="roblox4.png" alt="Foto SIHITAM">
+            <p>KAWAIII YOOO</p>
+        </div>
+
+        </div>
+
+</body>
+</html>
